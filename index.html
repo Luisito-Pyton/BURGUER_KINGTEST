@@ -1101,7 +1101,7 @@ function showCart() {
   const items = cart.map(i => i.name).join('%0A- ');
   const total = cartTotal.toLocaleString('es-CO');
   const msg = encodeURIComponent(
-    '🍔 Hola! Quiero hacer un pedido:\n- ' +
+    'Hola! Quiero hacer un pedido:\n- ' +
     cart.map(i => i.name).join('\n- ') +
     '\n\nTotal estimado: $' + total
   );
